@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimart Shop</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.add-to-cart {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Minimart</h1>
+      
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Shop.html">Shop</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="product.html"> Expensive Products</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        </header>
+        <img src="./assets/images/logo.jpg.png" length="60px" width="80px">
+    <section class="shop">
+        <div class="product">
+            <img src="./assets/images/collection-4.jpg" alt="Product Image" width="70px" length="80px">
+            <h2>MOst expensive Product 1</h2>
+            <p class="price">8200</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="./assets/images/collection-5.jpg" alt="Product Image" length="96px" width="90px" >
+            <h2>MOst expensive Product 1</h2>
+            <p class="price">9800</p>
+            <button class="add-to-cart">Add to Cart</button>
+    </section>
+    <footer>
+        <p>© 2024 Minimart. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="https://www.facebook.com/profile.php?id=61564320254363" target="_blank">Facebook</a> |
+            <a href="https://x.com/amitmokhriya98" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/its_amit_kataria/" target="_blank">Instagram</a>|
+            <a href="https://www.linkedin.com/in/amit-singh-296838323/" target="_blank">Linked In</a>|
+            <a href="https://github.com/amitmokhriya" target="_blank">github</a>
+        </p>
+    </footer>
+    <script src="style2.js"></script>
+</body>
+</html>

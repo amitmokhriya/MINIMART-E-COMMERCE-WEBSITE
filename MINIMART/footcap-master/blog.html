@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Minimart</title>
+    
+   <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.blog-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #eee;
+    margin-bottom: 2rem;
+}
+
+.blog-header h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.blog-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+.blog-posts {
+    display: grid;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.post:hover {
+    transform: scale(1.02);
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post-content {
+    padding: 1.5rem;
+}
+
+.post h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 1rem;
+}
+
+.post p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Minimart</h1>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Shop.html">Shop</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="product.html"> Expensive Products</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+    <img src="./assets/images/logo.jpg.png" length="60px" width="80px">
+    <main>
+        <section class="blog-header">
+            <h2>Our Blog</h2>
+            <p>Get the latest updates, shopping tips, and product guides from Minimart's blog.</p>
+        </section>
+
+        <section class="blog-posts">
+            <article class="post">
+                <img src="./assets/images/collection-5.jpg" alt="Blog Post 1">
+                <div class="post-content">
+                    <h3>Top 10 Products for the Holiday Season</h3>
+                    <p class="date">Posted on November 1, 2024</p>
+                    <p>Discover the must-have items for this holiday season, from gadgets to home decor. Our top picks for the perfect gift ideas.</p>
+                    <a href="post1.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="post">
+                <img src="./assets/images/collection-6.jpg" alt="Blog Post 2">
+                <div class="post-content">
+                    <h3>How to Choose the Right Kitchen Appliances</h3>
+                    <p class="date">Posted on October 25, 2024</p>
+                    <p>Learn tips and tricks for choosing kitchen appliances that suit your lifestyle, budget, and kitchen space.</p>
+                    <a href="post2.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="post">
+                <img src="./assets/images/collection-7.jpg" alt="Blog Post 3">
+                <div class="post-content">
+                    <h3>The Ultimate Guide to Home Organization</h3>
+                    <p class="date">Posted on October 10, 2024</p>
+                    <p>Explore our guide to decluttering and organizing your home with practical tips and affordable storage solutions.</p>
+                    <a href="post3.html" class="read-more">Read More</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minimart. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="https://www.facebook.com/profile.php?id=61564320254363" target="_blank">Facebook</a> |
+            <a href="https://x.com/amitmokhriya98" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/its_amit_kataria/" target="_blank">Instagram</a>|
+            <a href="https://www.linkedin.com/in/amit-singh-296838323/" target="_blank">Linked In</a>|
+            <a href="https://github.com/amitmokhriya" target="_blank">github</a>
+        </p>
+    </footer>
+</body>
+</html>
